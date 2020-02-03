@@ -14,7 +14,7 @@ func main() {
 	case msg := <-messages:
 		fmt.Println("Received message", msg)
 	default:
-		fmt.Println("No message receiver")
+		fmt.Println("No message received")
 	}
 
 	msg := "Hi"
